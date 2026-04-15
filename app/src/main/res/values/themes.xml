@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartStudyPlanner" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/ssp_background</item>
+        <item name="android:navigationBarColor">@color/ssp_background</item>
+        <item name="android:windowBackground">@color/ssp_background</item>
+        <item name="android:colorBackground">@color/ssp_background</item>
+        <item name="colorPrimary">@color/ssp_text_primary</item>
+        <item name="colorOnPrimary">@color/ssp_background</item>
+        <item name="colorSurface">@color/ssp_surface</item>
+        <item name="colorOnSurface">@color/ssp_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/ssp_text_secondary</item>
+    </style>
+</resources>

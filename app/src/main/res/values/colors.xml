@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ssp_background">#FF1A1D24</color>
+    <color name="ssp_surface">#FF252A33</color>
+    <color name="ssp_text_primary">#FFF5F5F5</color>
+    <color name="ssp_text_secondary">#FFB8BCC4</color>
+    <color name="ssp_divider">#FF3D4450</color>
+</resources>

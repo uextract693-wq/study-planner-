@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ssp_background"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="@string/app_name"
+            android:textColor="@color/ssp_text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="📝 Subject details"
+            android:textColor="@color/ssp_text_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/ssp_divider" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject name"
+            android:inputType="textPersonName"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <EditText
+            android:id="@+id/etTotalHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total hours required"
+            android:inputType="numberDecimal"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <EditText
+            android:id="@+id/etCompletedHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hours completed"
+            android:inputType="numberDecimal"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <EditText
+            android:id="@+id/etDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deadline (YYYY-MM-DD)"
+            android:inputType="date"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <EditText
+            android:id="@+id/etDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Difficulty (1-5)"
+            android:inputType="number"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="⏱ Simulation"
+            android:textColor="@color/ssp_text_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMissedDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Days to miss (for simulation)"
+            android:inputType="number"
+            android:textColor="@color/ssp_text_primary"
+            android:textColorHint="@color/ssp_text_secondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="▶ Actions"
+            android:textColor="@color/ssp_text_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/ssp_divider" />
+
+        <Button
+            android:id="@+id/btnAddSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Subject" />
+
+        <Button
+            android:id="@+id/btnViewPlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Today's Study Plan" />
+
+        <Button
+            android:id="@+id/btnViewSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Subjects" />
+
+        <Button
+            android:id="@+id/btnSimulate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulate Missing Days" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="📋 Output"
+            android:textColor="@color/ssp_text_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/ssp_divider" />
+
+        <FrameLayout
+            android:id="@+id/outputContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:background="@color/ssp_surface"
+            android:padding="4dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#4A7BFF</color>
+    <color name="ssp_background">#FF1A1D24</color>
+    <color name="ssp_divider">#FF3D4450</color>
+    <color name="ssp_surface">#FF252A33</color>
+    <color name="ssp_text_primary">#FFF5F5F5</color>
+    <color name="ssp_text_secondary">#FFB8BCC4</color>
+    <string name="app_name">Smart Study Planner</string>
+    <string name="empty_simulation_message">No subjects available. Add subjects first.</string>
+    <string name="empty_subjects_message">No subjects available. Add subjects first.</string>
+    <string name="output_placeholder">Output appears here</string>
+    <string name="simulation_no_valid_message">No valid subjects available for simulation.</string>
+    <string name="study_plan_empty_message">No study plan available. Add subjects first.</string>
+    <string name="study_plan_screen_title">Today\'s Study Plan</string>
+    <string name="subject_saved_title">Subject added successfully.</string>
+    <style name="Theme.SmartStudyPlanner" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/ssp_background</item>
+        <item name="android:navigationBarColor">@color/ssp_background</item>
+        <item name="android:windowBackground">@color/ssp_background</item>
+        <item name="android:colorBackground">@color/ssp_background</item>
+        <item name="colorPrimary">@color/ssp_text_primary</item>
+        <item name="colorOnPrimary">@color/ssp_background</item>
+        <item name="colorSurface">@color/ssp_surface</item>
+        <item name="colorOnSurface">@color/ssp_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/ssp_text_secondary</item>
+    </style>
+</resources>

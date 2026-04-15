@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\drawable_ic_app_book.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\drawable\\ic_app_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.smartstudyplanner.app-debug-31:/drawable_ic_arrow_back_24.xml.flat",
+        "source": "com.example.smartstudyplanner.app-main-33:/drawable/ic_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\drawable_ic_app_book_minimal.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\drawable\\ic_app_book_minimal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\drawable_ic_app_book_dark.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\drawable\\ic_app_book_dark.xml"
+    },
+    {
+        "merged": "com.example.smartstudyplanner.app-debug-31:/layout_activity_study_plan.xml.flat",
+        "source": "com.example.smartstudyplanner.app-main-33:/layout/activity_study_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\layout_activity_study_plan.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\layout\\activity_study_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-debug-31:\\drawable_ic_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\ydars\\.gradle\\daemon\\9.0.0\\com.example.smartstudyplanner.app-main-33:\\drawable\\ic_arrow_back_24.xml"
+    }
+]

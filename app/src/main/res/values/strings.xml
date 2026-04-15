@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Study Planner</string>
+    <string name="study_plan_screen_title">Today\'s Study Plan</string>
+    <string name="study_plan_empty_message">No study plan available. Add subjects first.</string>
+    <string name="output_placeholder">Output appears here</string>
+    <string name="empty_subjects_message">No subjects available. Add subjects first.</string>
+    <string name="empty_simulation_message">No subjects available. Add subjects first.</string>
+    <string name="simulation_no_valid_message">No valid subjects available for simulation.</string>
+    <string name="subject_saved_title">Subject added successfully.</string>
+</resources>

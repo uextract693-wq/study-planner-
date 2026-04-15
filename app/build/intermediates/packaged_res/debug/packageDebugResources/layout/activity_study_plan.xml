@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ssp_background"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarStudyPlan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/ssp_surface"
+        app:navigationIcon="@drawable/ic_arrow_back_24"
+        app:title="@string/study_plan_screen_title"
+        app:titleTextColor="@color/ssp_text_primary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvStudyPlanEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ssp_surface"
+                android:padding="16dp"
+                android:textColor="@color/ssp_text_primary"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsvStudyPlanTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ssp_surface"
+                android:fillViewport="true"
+                android:padding="8dp"
+                android:scrollbars="horizontal"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
